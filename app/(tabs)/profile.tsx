@@ -18,6 +18,10 @@ export default function ProfileTab() {
     router.push('/help');
   };
 
+  const handleClubePress = () => {
+    router.push('/clube-das-migas');
+  };
+
   return (
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" backgroundColor="#F5F5F5" />
@@ -98,7 +102,7 @@ export default function ProfileTab() {
         </View>
 
         {/* Clube das Migas */}
-        <TouchableOpacity style={styles.clubeSection}>
+        <TouchableOpacity style={styles.clubeSection} onPress={handleClubePress}>
           <View style={styles.clubeContent}>
             <Star size={18} color="#E91E63" />
             <Text style={styles.clubeText}>Clube das migas</Text>
