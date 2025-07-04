@@ -23,7 +23,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: '',
+          title: 'Home',
           tabBarIcon: ({ size, color }) => (
             <Home size={size} color={color} />
           ),
@@ -32,7 +32,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="search"
         options={{
-          title: '',
+          title: 'Buscar',
           tabBarIcon: ({ size, color }) => (
             <Search size={size} color={color} />
           ),
@@ -41,7 +41,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="shopping"
         options={{
-          title: '',
+          title: 'Compras',
           tabBarIcon: ({ size, color }) => (
             <ShoppingBag size={size} color={color} />
           ),
